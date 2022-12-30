@@ -1,0 +1,973 @@
+Spotify
+Universidade de Aveiro
+Luis Ernesto Castro Leal
+Paulo Sérgio Ribeiro Macedo
+
+Departamento de Electrónica Telecomunicações e Informática
+Ver.:1.0
+
+Spotify
+Departamento de Electrónica Telecomunicações e Informática
+Universidade de Aveiro
+
+Luis Ernesto Castro Leal, N
+
+º
+
+Mec.: 103511
+
+lecl@ua.pt
+
+º
+
+Paulo Sérgio Ribeiro Macedo, N
+
+Mec.: 102620
+
+paulomacedo@ua.pt
+
+19 de Dezembro de 2021
+
+Resumo
+Neste trabalho exploramos um serviço de streaming, o Spotify. Como este se tem tornado um dos principais serviços para a indústria músical, é pertinente elaborar um conjunto de informações e curiosidades,
+não só sobre o serviço mas também daqueles que apresentam o seu conteúdo disponível para reprodução.
+É mencionado o conceito de streaming, que não é conhecido por muitas pessoas, sendo este um conceito
+importante, visto que é a base do funcionamento deste serviço. Uma vez que, o Spotify não é a única
+plataforma disponível para este tipo de serviço, existe um enorme pressão por parte da concorrência, para
+que continue a enovar e apresentar novas funcionalidades, sempre com o medo de que possa ser ultrapassada e entrar em decaimento. No caso do Spotify, a quantidade de opções que tem para usufruir do serviço
+é relativamente alargada, tendo em conta outros serviços, o Spotify dá a opção de escolher o serviço grátis
+ou então o pago(premium), tendo o serviço pago várias opções por onde escolher,apresentado planos no
+caso de tencionar usufruir de um serviço individual ou conjunto.
+Por m, o que seria desta plataforma sem os seus artistas e os utilizadores para propocionar, não só fama
+á empresa, mas como também receitas que permitem estabelecer novos contratos com produtoras e assim
+garantir um serviço completo e de excelência. Portanto, é relevante apresentar a porção dos utilizadores
+que prefer elevar a sua experiência a outro nível e desfrutar do plano premium, e também os artistas com
+mais nome na plataforma e no mundo da música.
+
+Índice
+1
+
+Introdução
+
+2
+
+2
+
+Spotify - Logótipo
+
+3
+
+Streaming
+
+4
+
+3
+
+4
+
+5
+
+3.1
+
+O Conceito
+
+3.2
+
+Serviços Concorrentes
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+Spotify - A Plataforma
+
+4
+4
+
+6
+
+4.1
+
+Apresentação
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6
+
+4.2
+
+Funcionamento e Adesão . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6
+
+Estatísticas e Dados
+5.1
+
+5.2
+
+6
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+8
+
+Conteúdo Disponível . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+8
+
+5.1.1
+
+Música . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+8
+
+5.1.2
+
+Podcasts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+9
+
+Os Utilizadores . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+9
+
+Conclusão
+
+11
+
+2
+
+Lista de Figuras
+2.1
+
+Logótipo Atual do Spotify . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+3
+
+3
+
+Lista de Tabelas
+5.1
+
+Músicas mais reproduzidas de todos os tempos
+
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+8
+
+5.2
+
+Podcast mais reproduzidos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+9
+
+5.3
+
+Distribuição dos serviços Premium
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+10
+
+6.1
+
+Contribuições dos Autores . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+14
+
+1
+
+Capítulo 1
+
+Introdução
+De forma a acompanhar a evolução tecnológica, a indústria musical viu-se obrigada a sair da sua "zona
+de conforto"e a procurar vender e publicitar os seus artistas de outras formas além dos formatos convencionais (vinil, cassete, cd, etc.).
+Uma das primeiras plataformas a fazer esta transição do formato físico para o digital foi o Napster, sendo
+
+streaming
+
+que, atualmente as três principais plataformas de
+
+, na Europa, são o Spotify, o Apple Music e o
+
+SoundCloud.
+
+Neste relatório é abordado o serviço Spotify, uma vez que é, indubitávelmente, o serviço de
+
+streaming
+
+que
+
+mais receitas produz, que mais utilizadores possui e que mais revolucionou a indústria musical.
+
+Disponível para as mais variadas plataformas, o Spotify regista, até à data, um total de 381 milhões de
+utilizadores, fazendo dele a maior plataforma de
+
+streaming
+
+do mundo. Com um catálogo completamente
+
+licenciado, a plataforma disponibiliza mais de 70 milhões de músicas e mais de 2 milhões de
+
+podcasts
+playlists
+
+(apro-
+
+ximadamente 48 milhões de episódios), fornecendo ainda funcionalidades tais como a criação de
+
+geradas automaticamente pela plataforma com base nas preferências do utilizador e o registo através de
+uma conta Facebook, que permite ao utilizador acompanhar os gostos musicais dos seus seguidores.
+Este documento está dividido em 4 capítulos. Depois desta introdução, no Capítulo 2
+
+é apresentado
+
+o logótipo atual do Spotify e as suas características, seguidamente no Capítulo 3 é dado a conhecer
+uma breve explicação sobre o que é o
+
+streaming
+
+, de modo a introduzir este novo conceito relacionado
+
+com as novas formas de ouvir música, sendo apresentado nos seguintes capítulos, Capítulo 4 e Capítulo 5,
+informações sobre as opções que um utilizador poderá ter caso queira aderir ao serviço
+
+premium
+
+e também
+
+o respetivo valor pelo qual o serviço é cobrado, o tipo de conteúdo que pode esperar encontrar e também
+alguns dados sobre os artistas/podcasts mais ouvidos.
+
+Finalmente, no Capítulo 6 são apresentadas as
+
+conclusões do trabalho, tendo em análise todo o processo necessa¯io para que uma plataforma como o
+Spotify exista.
+
+2
+
+Capítulo 2
+
+Spotify - Logótipo
+O logótipo icónico do Spotify, é facilmente reconhecível e legível pelas gerações mais recentes.
+
+É um
+
+logótipo minimalista e moderno porque tem menos elementos grácos do que cor, forma e tipo de letra,
+realçando também o equilíbrio do esquema de cores.
+Todos os logótipos do Spotify apresentaram ondas sonoras. Três linhas representam energia ou ondas
+musicais, desde o logótipo original até ao atual. Esta forma é o que faz do Spotify uma empresa musical.
+Estas linhas horizontais, que são livres para se mover, transmitem uma sensação de distância, calma e sem
+m. Logótipos fáceis de lembrar, são os melhores. Os logótipos mais notáveis são envolventes, divertidos
+e intrigantes. Logótipos como o do caso do Spotify, que são verdadeiramente apelativos não podem ser
+ignorados, perdidos ou esquecidos na multidão.
+Spotify faz isso de muitas maneiras, incluindo seu o mesmo design na aplicação e no
+
+Figura 2.1: Logótipo Atual do Spotify
+
+3
+
+website
+
+.
+
+Capítulo 3
+
+Streaming
+3.1
+
+O Conceito
+
+Utilizado primordialmente pela empresa Data Eletronics Inc. para designar uma tecnologia relacionada
+com cassetes e atribuído, no início da década de 90, como descrição para o serviço VOD (Video on
+Demand), o termo
+
+streaming
+
+representa, de forma geral, um método através do qual é possível aceder a
+
+contéudos multimédia sem necessitar de os descarregar, requerindo, apenas, uma conexão à Internet. Em
+suma,
+
+streaming
+
+é um método de distribuição de conteúdo que é entregue e consumido de forma contínua.
+
+Cada plataforma de
+
+streaming
+
+, possui, em norma, uma área de especialização.
+
+Como são os casos do
+
+Spotify, para a música, da Netix, lmes e séries e do Stadia, vídeo jogos.
+
+3.2
+
+Serviços Concorrentes
+
+Hoje em dia, a escolha feita por cada utilizador para eleger o serviço de
+características, tais como: a nalidade do serviço de
+
+streaming
+
+streaming
+
+ideal é baseada em
+
+, se existem opções gratuitas disponíveis, a
+
+presença de anúncios, o custo da assinatura e o tamanho da biblioteca de música disponibilizada. Desta
+forma, tendo em conta o largo número de opções existentes, o Spotify apresenta uma grande competição,
+sendo exemplos disso os seguintes serviços:
+
+
+
+Deezer
+
+
+
+Napster
+
+
+
+Tidal
+
+
+
+Google Music
+
+
+
+Youtube Music
+
+
+
+Apple Music
+
+
+
+Qobuz
+
+
+
+Pandora Radio
+
+
+
+iHeart Radio
+
+No caso especíco do Pandora, dispõe de uma lista extensa de estações de rádio, cujo propósito é
+ajudar os utilizadores a descobrir novos artistas e novas músicas.
+
+Dentro do género de serviços que
+
+estão destinados a apresentar novos artistas e músicas, temos também o iHeart Radio, que apresenta
+
+4
+
+Introdução
+
+Spotify
+
+igualmente uma ampla gama de estações de rádio online.
+gratuitos, porém, só permite 15
+
+skips
+
+O iHeart Radio oferece unicamente serviços
+
+combinados por dia e 6
+
+skips
+
+por estação de rádio por hora. No
+
+entanto, apesar de alguns serviços possuírem melhores funcionalidades e planos com uma melhor relação
+preço/qualidade, a maioria dos utilizadores acaba por optar pelo Spotify como o seu serviço de eleição,
+graças ao seu extenso catálogo licenciado e às funcionalidades de interação entre utilizadores de que este
+dispõe.
+
+5
+
+Capítulo 4
+
+Spotify - A Plataforma
+4.1
+
+Apresentação
+
+O Spotify foi fundado a 23 de abril de 2006 por Daniel Ek e Martin Lorentzon, em Estocolmo, na Suécia,
+no entanto o serviço de
+
+streaming
+
+só foi lançado ocialmente a 7 outubro de 2008, estreando-se (apenas
+
+por convite) na Escandinávia, Reina Unido, França e Espanha.
+
+Países como a Holanda e os Estados
+
+Unidos que foram os seguintes a prever o potencial e sucesso desta nova plataforma só tiveram acesso
+em 2009/2010, respetivamente.
+
+Portugal, só teve esta plataforma nas suas mãos 5 anos depois do seu
+
+lançamento, sendo um dos últimos países da união europeia a ter acesso.
+Quanto a Daniel Ek, este é um empreendedor sueco na área da tecnologia e a sua jornada na área começou
+aos 14 anos, quando começou a desenvolver websites para pequenos negócios.
+
+De seguida, edicou os
+
+seus próprios servidores, propocionando serviços de hospedagem na internet. Após ter concluído os seus
+estudos universitários, fundou a empresa de anúncios online Advertigo, que acabou por vender, em 2006,
+à empresa sueca Tradedoubler. Chegou também a ocupar posições administrativas nas empresas Jajja
+Communications, Stardoll e uTorrent, tudo isto antes de fundar o Spotify com Martin Lorentzon.
+
+Já
+
+Martin Lorentzon, cofundador da Tradedoubler e do Spotify, viu a sua carreira prossional ascender,
+quando em setembro de 1999, juntamente com Felix Hagno, fundou a Netstrategy, que mais tarde se
+transformou na Tradedoubler. Esta última, como referido anteriormente, comprou a Advertigo, empresa
+de Daniel Ek. Esta junção das duas empresas levou a que se tornassem amigos com projetos em comum,
+dando assim origem ao Spotify.
+Para que o vasto catálogo do Spotify fosse disponibilizado para os seus utilizadores, a empresa viu-se
+obrigada a assinar acordos com produtoras musicais tais como a Universal Music Group (UMG),Warner
+Music Group (WMG), Sony Music Entertainment Group (SMEG), tendo esta 5 % das ações da empresa.
+Em 2018 foram lançados dados sobre os valores que a empresa pagou, desde 2006, a artistas e produtoras,
+rondando este valor os 9.7 mil milhões
+
+¿.
+
+Quanto à sua disponibilidade a nível territorial, o Spotify está presente em 178 países, tendo acrescentado
+81 à lista apenas no último ano.
+De acordo com dados emitidos pela própria empresa, até à primeira metade de 2021, o Spotify empregava
+7085 funcionários, revelando ainda que o seu salário anual médio rondava os 122.814 euros.
+
+4.2
+
+Funcionamento e Adesão
+
+Os planos de adesão do Spotify dividem-se em duas categorias principais, o Spotify Free (gratuito) e o
+Spotify Premium (pago). Enquanto que o plano gratuito apenas permite ouvir músicas no modo
+e com pausas para anúncios, o pago dá a possibilidade de fazer
+
+download
+
+das músicas para ouvir
+
+shue
+oine
+
+;
+
+navegar nas playlist sem restrições, podendo-se selecionar a música que se pretende reproduzir; e ter acesso
+a áudio de qualidade superior, equivalente a 320 kbit/s.
+
+6
+
+Introdução
+
+Spotify
+
+As possibilidades dentro dos planos Premium são:
+
+
+
+Individual  6,99¿ (uma conta)
+
+
+
+Estudante  3,49¿ (uma conta)
+
+
+
+Duo  8,99¿ (duas contas)
+
+
+
+Família  11,99¿ (até seis contas).
+
+7
+
+Capítulo 5
+
+Estatísticas e Dados
+5.1
+5.1.1
+
+Conteúdo Disponível
+Música
+
+Seria impossível realizar um relatório sobre o Spotify se referir o óbvio, que é o catálogo musical que tem
+para oferecer. Do
+
+pop rock
+ao
+
+e do clássico ao eletrónico, são muito raros e quase impossíveis de detetar os
+
+casos em que a plataforma não possui o conteúdo que procuramos, até porque, de momento, o seu catálogo
+é composto por mais de 70 milhões de faixas. A par do catálogo extenso, o Spotify acaba também por
+oferecer uma espécie de serviço personalizado. Graças à recolha constante de dados, o algoritmo deteta
+padrões relativos aos gostos musicais do utilizador e sugere-lhe músicas dentro dos mesmos géneros a que
+este está acostumado, facilitando a descoberta por novas músicas e ajudando artistas menos conhecidos a
+obterem reconhecimento.
+O impacto do Spotify na indústria musical é notório de tal forma que, até à data, a música que mais
+vezes foi reproduzida é a Shape of You do Ed Sheeran, que conta com 2.995 mil milhões de reproduções,
+um número que outrora seria impossível de atingir e que, por si só, reete o número de utilizadores e a
+capacidade de exposição que o serviço tem.
+A popularidade das músicas nem sempre se deve ao artista, facto que é possível comprovar pela fama
+que as faixas ganham com exposição dada por guras públicas nas mais variadas redes sociais, mas além
+deste fator, também importa salientar a publicidade feita pelo Spotify que, de forma semanal, dá espaço
+
+playlists
+
+a novas músicas nas suas
+
+, que possuem milhões de seguidores.
+
+Um dos exemplos mais relevantes será, certamente, o de Billie Eilish, que com apenas 20 anos é, desde
+já, a quinta artista com mais seguidores no Spotify, contabilizando 53.86 milhões de fãs no serviço de
+
+streaming
+
+.
+
+Além deste feito, conta ainda com 3 faixas cujo número de reproduções ultrapassa os mil
+
+milhões.
+
+Tabela 5.1: Músicas mais reproduzidas de todos os tempos
+
+Posição
+
+Música
+
+Artista
+
+Nº de Reproduções
+
+1
+
+Shape of You
+
+Ed Sheeran
+
+2.995M
+
+2
+
+Blinding Lights
+
+The Weeknd
+
+2.688M
+
+3
+
+Dance Monkey
+
+Tones and I
+
+2.430M
+
+4
+
+Rockstar
+
+Post Malone
+
+2.315M
+
+5
+
+Someone You Loved
+
+Lewis Capaldi
+
+2.188M
+
+Géneros Musicais e Playlists
+A música não é toda igual e, como tal, divide-se em géneros. É seguro dizer-se que ao longo dos anos, a
+"moda"vai mudando e, tendo já ocupado o "trono"a Ópera, o
+
+8
+
+Jazz Pop Rock
+, o
+
+, o
+
+, entre outros. Em 2017,
+
+Introdução
+
+Spotify
+
+Rock
+Hip-hop/R & B
+Hip-hop/R & B
+Hip-hop/R & B Pop
+playlists
+
+registou-se algo inédito, pois o
+
+foi nalmente ultrapassado e, desde então, tem-se vindo a vericar
+
+um claro domínio por parte do
+Este mais recente domínio do
+
+Pop
+
+nas plataformas de
+
+streaming
+
+.
+
+deve-se, acima de tudo, à inuência que tem tido na música
+
+, o que lhe acaba por dar A visibilidade que não possuía anteriormente. Importa referir que a inuência
+
+transmitida pelo
+musicais.
+Quanto a
+
+playlists
+5.1.2
+
+ao
+
+provém de parcerias entre grandes nomes de ambos os géneros
+
+, o serviço disponibiliza uns impressionantes 4 mil milhões de opções e, 50% das 20
+
+com mais seguidores são compostas por música
+
+Podcasts
+
+A seguir à música, os
+
+podcasts
+
+Pop
+
+.
+
+são o conteúdo mais consumido pelos utilizadores do Spotify e tal como
+
+a música, também estes estão divididos em géneros.
+Numa sociedade em que o tempo parece cada vez mais escasso e a disponibilidade e interesse da população
+em ler um livro aparentam ser reduzidas, os
+
+podcasts
+
+tornaram-se uma excelente forma de obtenção de
+
+informação, uma vez que o consumidor poderá estar a realizar outras tarefas enquanto ouve algo sobre um
+assunto à sua escolha. Desta forma, importa referir dois dos
+
+podcasts
+
+mais ouvidos do presente ano, uma
+
+vez que ambos partilham o facto de convidarem guras bem sucedidas nas suas áreas para partilharem
+as suas ideias e experiências. Os exemplos referidos são o The Joe Rogan Experience e o TED Talks
+Daily.
+O primeiro é apresentado por Joe Rogan, um comediante e comentador de Ultimate Fighting Championship (UFC). O conteúdo do
+
+podcast
+
+varia consoante os convidados, uma vez que a cada episódio novo o
+
+moderador conversa com uma gura pública diferente e desde dezembro de 2020 que o podcast é exclusivo
+do Spotify, graças a um acordo assinado entre ambos que contempla uma cláusula de assinatura no valor
+100 milhões de euros.
+O segundo caso é o do TED Talks Daily,
+
+podcast
+
+patrocinado pela organização sem ns lucrativos ameri-
+
+cana Technology, Entertainment, Design (TED), cujo slogan é Ideas worth spreading - ideais que valem
+a pena partilhar. Como tal, a temática dos episódios varia dependendo dos convidados, mas o objetivo
+passa sempre por dar tempo de antena a guras bem sucedidas na sua área de trabalho para que possam
+educar e até mesmo motivar a sua audiência.
+Além destes programas, que estão diretamente relacionados ao género "Sociedade e Cultura", o utilizador
+pode optar por muitos mais géneros, como por exemplo, "Notícias e Política", "Educação"e ainda "Negócios e Tecnologia".
+Atualmente, o Spotify conta com aproximadamente 2.9 mil milhões de
+ao registado em 2019.
+
+podcasts
+
+, valor 5.8 vezes superior
+
+Tabela 5.2: Podcast mais reproduzidos
+
+5.2
+
+Posição
+
+Podcast
+
+1
+
+The Joe Rogan Experience
+
+2
+
+Call Her Daddy
+
+3
+
+Crime Junkie
+
+4
+
+TED Talks Daily
+
+5
+
+The Daily
+
+Os Utilizadores
+
+Até à data, o Spotify conta com aproximadamente 381 milhões utilizadores e cerca de 165 milhões são
+assinantes premium. A maior percentagem dos assinantes premium são europeus 69 %, sendo os restantes
+da América do Norte (29 %), América Latina (20 %) e os últimos 11 % estão distribuídos pelo resto do
+mundo.
+
+9
+
+Introdução
+
+Spotify
+
+Projeta-se que no ano de 2021, a empresa lucre entre 9.26 a 9.66 mil milhões de euros, valor 693 vezes
+superior ao lucro obtido em 2009 (13.26 milhões).
+Tabela 5.3: Distribuição dos serviços Premium
+
+Região
+
+Serviços Premium
+
+Europa
+
+40%
+
+América do Norte
+
+29%
+
+America Latina
+
+20%
+
+Resto do Mundo
+
+11%
+
+10
+
+Capítulo 6
+
+Conclusão
+A sociedade atual vive rodeada de tecnologia, ao ponto de já estar tão mergulhada na transmissão de
+informação que muitas vezes nem se apercebe ou lembra da innidade de conteúdos que ouviu recentemente.
+O
+
+streaming
+
+foi uma tecnologia que propocionou a difusão de conteúdos multimédia tanto de aúdio, como
+
+de vídeo, através da internet, sem ser necessário recorrer ao
+vezes ilegal).
+
+download
+
+do conteúdo propriamente dito (por
+
+Esta técnica tem diversas vantagens, sendo algumas delas a reprodução de conteúdos protegidos por direitos de autor e a economização de espaço no disco rígido dos equipamentos utilizados para a visualização
+dos conteúdos, sendo uma das grandes vantagens de uma plataforma como o Spotify.
+É notório que, ao longo dos últimos anos, a indústria musical tem vindo a sofrer grandes mudanças,
+visto que os consumidores deixaram de comprar um álbum físico, ou até mesmo uma faixa em formato
+de MPEG-1 Audio Layer III (MP3), para passarem a adquirir um modelo novo de assinatura que lhes
+permite ter acesso ao mais variado e extenso leque de conteúdos musicais.
+Estas mudanças são, em grande medida, resultado não só dos avanços tecnológicos, mas também de alterações económicas e ainda culturais.
+
+O aparecimento do
+
+streaming
+
+permitiu que os seus utilizadores
+
+pudessem ter acesso a inúmeras possibilidades de conteúdos digitais que, de outra forma, estariam impedidos de adquirir e de descobrir.
+Assim, com o aparecimento deste novo serviço, exploraram-se novos modelos de negócio, surgindo novas
+práticas de circulação musical e o seu respetivo consumo, criando-se assim um novo mercado para a indústria musical.
+Em contrapartida,o começo não foi fácil. Embora o
+existe uma forte aposta nos downloads ilegais.
+
+streaming
+
+musical estivesse a crescer, existia e ainda
+
+Face à grande queda notada nas vendas de Compact
+
+Disc (CD)'s, um novo modelo de serviço musical teria ainda de desenvlover uma relação de conança com
+os consumidores, que ainda hesitavam em adotar esta tecnologia como o seu principal método de consumo.
+Os utilizadores reconhecem os riscos da pirataria de conteúdo como indiferentes ou quase nulos para afetar
+os seus comportamentos atuais, sendo que a perceção de baixo risco face à ilegalidade das suas ações torna
+quase impossível umas alteração nos seus hábitos, dicultanto assim o combate à pirataria. As tendências
+de pirataria digital surgem como resultado de vários fatores, tais como a indisponibilidade para pagar
+por uma alternativa legal e o baixo risco percepcionado por parte do consumidor face a estas atitudes
+ilegais. E desta forma, o Spotify vem como uma solução para resolver este problema, dando a opção aos
+utilizadores de usufruir do serviço de forma gratuita ou paga, sem que os admiradores de música tenham
+que recorrer a métodos ilegais para disfrutarem da mesma.
+O Spotify é também uma fantástica ferramenta para novos artistas, uma vez que dá uma grande exposição ao seu trabalho (através das
+
+playlists
+
+), conseguindo assim crescer como artista e ao mesmo tempo ser
+
+remunerado, dependendo, obviamente, do número de reproduções que alcança.
+Em suma, a indústria musical tem vindo a sofrer grandes transformações, que são, na sua maioria, derivadas dos avanços tecnológicos. A Internet e a partilha ilegal de cheiros digitais de fácil acesso são um
+
+11
+
+Introdução
+
+Spotify
+
+problema constante, colocando em causa a rentabilidade e a viabilidade desta indústria, mas, a pouco e
+pouco, os serviços de
+
+streaming
+streaming
+
+sua aquisição ilegal. O
+
+e de venda conteúdo trabalham de forma a tornar cada vez mais difícil a
+de música acaba por surgir como uma resposta às alterações ressentidas
+
+no mercado digital e, como tal, tem vindo a ser muito bem sucedido na tarefa que desempenha, que é,
+principalmente, alimentar a indústria e fazê-la crescer. Desto modo, é inegável armar que o Spotify é
+um dos principais pilares da nova era de conteúdos digitais e o seu modelo veio para car.
+
+12
+
+Acrónimos
+LL Autor: Luis Ernesto Castro Leal, Nº Mec.: 103511
+PM Autor: Paulo Sérgio Ribeiro Macedo, Nº Mec.: 102620
+
+UMG Universal Music Group
+
+SMEG Sony Music Entertainment Group
+
+WMG Warner Music Group
+
+CD Compact Disc
+
+MP3 MPEG-1 Audio Layer III
+
+UFC Ultimate Fighting Championship
+
+TED Technology, Entertainment, Design
+
+13
+
+Contribuições dos Autores
+Autor: Luis Ernesto Castro Leal, Nº Mec.: 103511 (LL)
+
+Autor: Paulo Sérgio Ribeiro Macedo, Nº Mec.: 102620 (PM)
+
+Tabela 6.1: Contribuições dos Autores
+
+Contribuição
+
+LL
+
+PM
+
+Produção Latex
+
+50 %
+
+50 %
+
+Resumo
+
+50 %
+
+50 %
+
+Introdução
+
+50 %
+
+50 %
+
+Streaming
+
+50 %
+
+50 %
+
+Spotify
+
+50 %
+
+50 %
+
+Estatística e Dados
+
+50 %
+
+50 %
+
+Conclusão
+
+50 %
+
+50 %
+
+Acrónimos
+
+50 %
+
+50 %
+
+Bibliograa
+
+50 %
+
+50 %
+
+14
+
+Bibliograa
+[1]
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9]
+
+https://pt.wikipedia.org/wiki/Spotify, acedido 18/12/2021.
+https://pt.wikipedia.org/wiki/Daniel_Ek, acedido 18/12/2021.
+https://en.wikipedia.org/wiki/Martin_Lorentzon, acedido 18/12/2021.
+https://www.spotify.com/pt-en/, acedido 18/12/2021.
+https://newsroom.spotify.com/company-info/, acedido 18/12/2021.
+https://investors.spotify.com/home/default.aspx, acedido 18/12/2021.
+https://backlinko.com/spotify-users, acedido 18/12/2021.
+https://www.podcastinsights.com/podcast-statistics/, acedido 18/12/2021.
+https://en.wikipedia.org/wiki/List_of_most-streamedsongs_on_Spotify, acedido 18/12/2021.
+https://artesonora.pt/breves/stream-ripping-na-base-do-problema-global-da-pirataria-musical/, acedido 19,12,2021
+
+[10]
+
+15
+
+

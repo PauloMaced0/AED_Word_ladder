@@ -1,0 +1,11 @@
+**/results/*.tex
+*.log
+*.dvi
+*.bcf
+*.xml
+*.toc
+*.aux
+*.out
+*.lot
+*.lof
+*.gz

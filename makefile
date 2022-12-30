@@ -5,11 +5,9 @@
 #
 
 clean:
-	rm -rf a.out word_ladder solution_word_ladder
+	rm -rf a.out word_ladder 
 
 
 word_ladder:		word_ladder.c
 	cc -Wall -Wextra -O2 word_ladder.c -o word_ladder -lm
 
-solution_word_ladder:	solution_word_ladder.c
-	cc -Wall -Wextra -O2 solution_word_ladder.c -o solution_word_ladder -lm
